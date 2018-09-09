@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
+    ///<Summary>
+    /// Class Cortado
+    ///</Summary>
     public class Cortado : Kaffe , Imælk
     {
         /// <summary>

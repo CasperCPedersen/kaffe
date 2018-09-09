@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
+    ///<Summary>
+    /// Class Latte
+    ///</Summary>
     public class Latte : Kaffe , Imælk
     {
         /// <summary>
@@ -16,7 +19,9 @@ namespace kaffe
         {
             return 120;
         }
-
+        ///<Summary>
+        /// Gets the Pris
+        ///</Summary>
         public override int Pris()
         {
             return 40;

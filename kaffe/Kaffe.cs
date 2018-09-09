@@ -43,6 +43,9 @@ namespace kaffe
             //this.Rabat = 0;
         }
 
+        ///<Summary>
+        /// giver dig chacen for at give rabat (wry do we fix CS1591 Warnings) 
+        ///</Summary>
         public Kaffe(int rabat)
         {
             this.Rabat = rabat;
