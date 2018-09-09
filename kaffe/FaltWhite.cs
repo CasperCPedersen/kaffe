@@ -38,7 +38,7 @@ namespace kaffe
         ///</Summary>
         public override string Styrke()
         {
-            return "Mild";
+            return "mild";
         }
 
 
