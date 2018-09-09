@@ -18,5 +18,13 @@ namespace kaffe.Tests
             int pris = flatwhite.Pris();
             Assert.AreEqual(45, pris);
         }
+
+        [TestMethod()]
+        public void FlatWhiteStykke()
+        {
+            var flatwhit = new FaltWhite();
+            string styrke = flatwhit.Styrke();
+            Assert.AreEqual("mild", styrke);
+        }
     }
 }
