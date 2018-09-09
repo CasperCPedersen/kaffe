@@ -26,5 +26,13 @@ namespace kaffe.Tests
             string styrke = flatwhit.Styrke();
             Assert.AreEqual("mild", styrke);
         }
+
+        [TestMethod()]
+        public void FlatWhiteMlMælk()
+        {
+            var flatwhit = new FaltWhite();
+            int mlMælk = flatwhit.MlMælk();
+            Assert.AreEqual(160, mlMælk);
+        }
     }
 }
