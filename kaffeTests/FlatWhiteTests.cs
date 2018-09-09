@@ -9,7 +9,14 @@ namespace kaffe.Tests
 {
     [TestClass()]
 
-    class FlatWhiteTests
+    public class FlatWhiteTests
     {
+        [TestMethod()]
+        public void FlatWhitePris()
+        {
+            var flatwhite = new FaltWhite();
+            int pris = flatwhite.Pris();
+            Assert.AreEqual(45, pris);
+        }
     }
 }
